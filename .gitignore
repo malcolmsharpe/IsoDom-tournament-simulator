@@ -6,3 +6,6 @@ reference/*
 
 # VIM swap files.
 *.swp
+
+# Compiled Python.
+*.pyc
