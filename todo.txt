@@ -1,0 +1,13 @@
+Average number of points in group.
+
+Historical leaderboard:
+  http://bggdl.square7.ch/leaderboard/leaderboard-2011-11-20.html
+Should find most recent having the players I want.
+
+Model improvements:
+- First-player advantage
+- Skill drift
+- Head-to-head record?
+- Expansion data?
+
+What is the tournament structure??? Need to fix.

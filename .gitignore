@@ -1,2 +1,8 @@
+# Finder properties.
+.DS_Store
+
 # Reference documents for TrueSkill.
 reference/*
+
+# VIM swap files.
+*.swp
