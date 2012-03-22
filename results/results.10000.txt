@@ -1,0 +1,82 @@
+Brackets:
+  Groups:
+    Ranking:
+      48%: shark_bait (mu = 50.2, sigma = 3.5)
+      17%: dghunter79 (mu = 45.6, sigma = 2.4)
+      16%: Titandrake (mu = 45.0, sigma = 3.4)
+      14%: O (mu = 44.9, sigma = 2.4)
+       2%: antony (mu = 37.8, sigma = 2.8)
+       2%: gorgonstar (mu = 38.0, sigma = 2.5)
+       1%: ednever (mu = 36.0, sigma = 2.9)
+       0%: Insomniac-X (mu = 27.1, sigma = 4.0)
+
+    Ranking:
+      35%: tlloyd (mu = 48.3, sigma = 2.8)
+      20%: perdhapley (mu = 45.9, sigma = 2.1)
+      17%: Axxle (mu = 44.7, sigma = 3.7)
+      13%: Jorbles (mu = 43.6, sigma = 3.7)
+       9%: [MAD] Mergus (mu = 42.1, sigma = 2.8)
+       3%: yuma (mu = 37.9, sigma = 3.0)
+       2%: Coheed (mu = 38.0, sigma = 2.6)
+       1%: Ignorentmen (mu = 25.0, sigma = 8.3)
+
+    Ranking:
+      42%: NinjaBus (mu = 50.5, sigma = 2.6)
+      21%: michaeljb (mu = 46.9, sigma = 3.6)
+      12%: mikemike (mu = 44.7, sigma = 3.0)
+      11%: A_S00 (mu = 44.5, sigma = 2.8)
+       8%: BJ Penn (mu = 43.7, sigma = 2.0)
+       6%: mnavratil (mu = 42.5, sigma = 2.9)
+       1%: CarpeDeezNuts (mu = 35.5, sigma = 2.5)
+       0%: ebEliminator (mu = 27.6, sigma = 3.2)
+
+    Ranking:
+      76%: RisingJaguar (mu = 55.9, sigma = 3.6)
+      13%: greatexpectations (mu = 46.1, sigma = 3.1)
+      10%: Mean Mr Mustard (mu = 45.4, sigma = 2.5)
+       1%: Brando Commando (mu = 38.1, sigma = 2.9)
+       0%: ^_^_^_^ (mu = 33.9, sigma = 3.0)
+       0%: rspeer (mu = 25.0, sigma = 8.3)
+       0%: Nicki Menagerie (mu = 30.1, sigma = 2.6)
+       0%: AHoppy (mu = 14.5, sigma = 3.8)
+
+  Groups:
+    Ranking:
+      40%: Geronimoo (mu = 51.5, sigma = 3.0)
+      36%: Rabid (mu = 50.9, sigma = 2.6)
+      11%: lespeutere (mu = 45.6, sigma = 2.4)
+       9%: MrEevee (mu = 44.9, sigma = 2.6)
+       2%: Dubdubdubdub (mu = 39.1, sigma = 3.9)
+       1%: luliin (mu = 37.0, sigma = 3.7)
+       0%: Mangsky (mu = 27.0, sigma = 3.0)
+       0%: Nucleus (mu = 26.4, sigma = 3.0)
+
+    Ranking:
+      61%: Fabian (mu = 55.9, sigma = 2.7)
+      27%: Brathannes (mu = 51.2, sigma = 2.5)
+       5%: StickaRicka (mu = 44.3, sigma = 3.3)
+       3%: Lekkit (mu = 42.6, sigma = 2.7)
+       3%: JanErik (mu = 41.9, sigma = 3.8)
+       1%: ugasoft (mu = 37.1, sigma = 3.7)
+       0%: Tonks77 (mu = 25.0, sigma = 8.3)
+       0%: ArjanB (mu = 29.4, sigma = 3.5)
+
+    Ranking:
+      59%: WanderingWinder (mu = 51.3, sigma = 2.8)
+      15%: Robz888 (mu = 44.8, sigma = 2.3)
+       9%: Mic Qsenoch (mu = 42.6, sigma = 2.6)
+       9%: blueblimp (mu = 42.4, sigma = 2.9)
+       5%: Masticore (mu = 39.7, sigma = 3.5)
+       2%: pops (mu = 37.7, sigma = 3.2)
+       1%: zxcvbn2 (mu = 33.5, sigma = 3.5)
+       0%: angrybirds (mu = 17.4, sigma = 6.8)
+
+    Ranking:
+      66%: jonts26 (mu = 54.3, sigma = 3.1)
+      14%: DG (mu = 45.2, sigma = 5.2)
+       6%: Kirian (mu = 42.7, sigma = 3.6)
+       6%: Graystripe77 (mu = 42.5, sigma = 3.6)
+       5%: The Real ~~**Young Nick**~~ (mu = 41.6, sigma = 3.7)
+       3%: andwilk (mu = 40.6, sigma = 3.6)
+       0%: elahrairah13 (mu = 33.4, sigma = 2.7)
+       0%: fit1one (mu = 22.5, sigma = 2.9)
