@@ -1,3 +1,7 @@
+Revert to determining group winner.
+
+Update with results-to-date and recent leaderboard.
+
 Model improvements:
 - First-player advantage
 - Skill drift
