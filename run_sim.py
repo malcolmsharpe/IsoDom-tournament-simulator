@@ -74,7 +74,7 @@ def main():
 
     def preinit(self):
       # Run once before a batch of simulations.
-      self.group_advances = 0
+      self.group_wins = 0
       self.alltime_points = 0
 
     def init(self):
@@ -111,6 +111,7 @@ def main():
   filenames.sort()
   filenames.reverse()
 
+  first_board = True
   for fn in filenames:
     for line in file(os.path.join(boardtxt, fn)):
       p = Player(line=line)
@@ -119,6 +120,9 @@ def main():
         for g in b:
           if p.name in g and g[p.name] is None:
             g[p.name] = p
+            if not first_board:
+              print 'WARNING: Using old entry for player "%s".' % p.name
+    first_board = False
 
   # Print detailed brackets.
   if 0:
@@ -227,26 +231,22 @@ def main():
             if id(p1) < id(p2):
               play_series(p1, p2)
 
-    # For each group, determine top 4 (possibly involving tie-breaking series).
-    bracket_leaders = []
+    # Determine winners (possibly involving tie-breaking series).
+    bracket_winners = []
     for b in brackets:
-      group_leaders = []
+      group_winners = []
       for g in b:
-        leaders = g.values()
-        leaders.sort(key=lambda p: -p.points)
+        max_points = max(p.points for p in g.values())
+        leaders = [p for p in g.values() if p.points == max_points]
 
-        if leaders[3].points == leaders[4].points:
-          # FIXME: Handle ties that are more than 2-way.
-          if leaders[4] == play_tiebreaker(leaders[3], leaders[4]):
-            t = leaders[4]
-            leaders[4] = leaders[3]
-            leaders[3] = t
-        leaders = leaders[:4]
-        for p in leaders:
-          p.group_advances += 1
-
-        group_leaders.append(leaders)
-      bracket_leaders.append(group_leaders)
+        if len(leaders) > 1:
+          if len(leaders) > 2:
+            print 'WARNING: More than two group winners: %s' % leaders
+          leaders = [play_tiebreaker(leaders[0], leaders[1])]
+        leader, = leaders
+        leader.group_wins += 1
+        group_winners.append(leader)
+      bracket_winners.append(group_winners)
 
     # Report detailed results.
     if verbose:
@@ -262,11 +262,11 @@ def main():
 
     # Report winners.
     if verbose:
-      print 'Bracket leaders:'
-      for gl in bracket_leaders:
-        print '  Group leaders:'
-        for ls in gl:
-          print '    %s' % ', '.join([p.name for p in ls])
+      print 'Bracket winners:'
+      for gw in bracket_winners:
+        print '  Group winners:'
+        for p in gw:
+          print '    %s' % p
         print
 
   for p in players:
@@ -292,9 +292,9 @@ def main():
       print '  Groups:'
       for g in b:
         print '    Ranking:'
-        ranking = sorted(g.values(), key=lambda p: -p.group_advances)
+        ranking = sorted(g.values(), key=lambda p: -p.group_wins)
         for p in ranking:
-          win_pct = 100.0 * p.group_advances / float(trials)
+          win_pct = 100.0 * p.group_wins / float(trials)
           avg_pts = p.alltime_points / float(trials)
           print '      %2.0lf%% (avg pts %2d): %s' % (
             win_pct, avg_pts, p.name)

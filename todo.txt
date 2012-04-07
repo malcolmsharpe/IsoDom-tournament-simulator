@@ -1,6 +1,6 @@
-Revert to determining group winner.
-
 Update with results-to-date and recent leaderboard.
+
+Handle more-than-2-way tiebreakers.
 
 Model improvements:
 - First-player advantage
