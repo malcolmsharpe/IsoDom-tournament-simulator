@@ -1,0 +1,378 @@
+Update!
+
+[b]Current Standings[/b]
+Players are ranked by points-per-game. PPG means points-per-game, PTS means points, and GMS means games.
+
+[font=courier]
+      PPG PTS GMS NAME
+Brackets:
+  Groups:
+    Ranking:
+      1.5  31  21 antony
+      1.4  20  14 O
+      1.3  18  14 dghunter79
+      1.0  14  14 shark_bait
+      0.9  13  14 ednever
+      0.9  12  14 Tmoiy
+      0.6   9  14 Insomniac-X
+      0.4   9  21 Titandrake
+
+    Ranking:
+      1.2  25  21 [MAD] Mergus
+      1.1  16  14 Axxle
+      1.1  16  14 Jorbles
+      1.1  15  14 ignorantmen
+      0.9  13  14 yuma
+      0.9  13  14 Coheed
+      0.9  12  14 tlloyd
+      0.8  16  21 perdhapley
+
+    Ranking:
+      1.4  20  14 NinjaBus
+      1.3  18  14 michaeljb
+      1.1  16  14 ebEliminator
+      1.0  14  14 mikemike
+      1.0  14  14 A_S00
+      0.9  12  14 BJ Penn
+      0.7  10  14 CarpeDeezNuts
+      0.6   8  14 mnavratil
+
+    Ranking:
+      1.7  12   7 Mean Mr Mustard
+      1.4  20  14 RisingJaguar
+      1.3  18  14 rspeer
+      0.9  12  14 Brando Commando
+      0.9  12  14 greatexpectations
+      0.9   6   7 Nicki Menagerie
+      0.3   2   7 AHoppy
+      0.3   2   7 ^_^_^_^
+
+  Groups:
+    Ranking:
+      1.3  18  14 lespeutere
+      1.1  16  14 MrEevee
+      1.1  16  14 Rabid
+      1.1   8   7 Dubdubdubdub
+      0.9  12  14 Geronimoo
+      0.9  12  14 Nucleus
+      0.9   6   7 luliin
+      0.7  10  14 Mangsky
+
+    Ranking:
+      1.3  18  14 Lekkit
+      1.1  24  21 Fabian
+      1.1  16  14 StickaRicka
+      1.1  23  21 ugasoft
+      1.0  14  14 JanErik
+      0.9  13  14 Tonks77
+      0.8  11  14 AngBoy
+      0.5   7  14 ArjanB
+
+    Ranking:
+      1.4  20  14 Mic Qsenoch
+      1.4  10   7 WanderingWinder
+      1.1  16  14 Robz888
+      1.1  16  14 Masticore
+      1.0  20  21 blueblimp
+      0.9  13  14 angrybirds
+      0.7  15  21 zxcvbn2
+      0.3   2   7 Voltaire
+
+    Ranking:
+      1.2  26  21 fit1one
+      1.1   8   7 DG
+      1.1  16  14 Tha Trillest Young Nick
+      1.0  14  14 Kirian
+      1.0  14  14 Graystripe77
+      0.9  12  14 jonts26
+      0.9  12  14 andwilk
+      0.7  10  14 elahrairah13
+[/font]
+
+[b]Revised Predictions[/b]
+[font=courier]
+Brackets:
+  Groups:
+    Ranking:
+      41% (avg pts 61): O
+      23% (avg pts 58): shark_bait
+      22% (avg pts 59): antony
+      12% (avg pts 55): dghunter79
+       1% (avg pts 43): Tmoiy
+       0% (avg pts 42): ednever
+       0% (avg pts 30): Insomniac-X
+       0% (avg pts 40): Titandrake
+
+    Ranking:
+      29% (avg pts 54): [MAD] Mergus
+      23% (avg pts 53): tlloyd
+      19% (avg pts 51): Jorbles
+      19% (avg pts 52): Axxle
+       3% (avg pts 42): ignorantmen
+       3% (avg pts 45): Coheed
+       2% (avg pts 46): perdhapley
+       2% (avg pts 44): yuma
+
+    Ranking:
+      71% (avg pts 62): NinjaBus
+      17% (avg pts 54): michaeljb
+       5% (avg pts 49): mikemike
+       4% (avg pts 50): A_S00
+       2% (avg pts 48): BJ Penn
+       0% (avg pts 41): ebEliminator
+       0% (avg pts 42): CarpeDeezNuts
+       0% (avg pts 41): mnavratil
+
+    Ranking:
+      77% (avg pts 70): RisingJaguar
+      21% (avg pts 63): Mean Mr Mustard
+       1% (avg pts 54): greatexpectations
+       1% (avg pts 51): rspeer
+       0% (avg pts 48): Brando Commando
+       0% (avg pts 41): ^_^_^_^
+       0% (avg pts 39): Nicki Menagerie
+       0% (avg pts 23): AHoppy
+
+  Groups:
+    Ranking:
+      51% (avg pts 63): Rabid
+      23% (avg pts 59): Geronimoo
+      17% (avg pts 58): lespeutere
+       8% (avg pts 54): MrEevee
+       1% (avg pts 45): Dubdubdubdub
+       0% (avg pts 41): luliin
+       0% (avg pts 35): Nucleus
+       0% (avg pts 34): Mangsky
+
+    Ranking:
+      43% (avg pts 61): Fabian
+      26% (avg pts 58): Lekkit
+      13% (avg pts 56): JanErik
+      10% (avg pts 54): StickaRicka
+       6% (avg pts 54): ugasoft
+       2% (avg pts 48): Tonks77
+       0% (avg pts 28): AngBoy
+       0% (avg pts 30): ArjanB
+
+    Ranking:
+      54% (avg pts 62): WanderingWinder
+      24% (avg pts 59): Robz888
+      17% (avg pts 57): Mic Qsenoch
+       3% (avg pts 50): Masticore
+       2% (avg pts 51): blueblimp
+       0% (avg pts 37): zxcvbn2
+       0% (avg pts 37): angrybirds
+       0% (avg pts 34): Voltaire
+
+    Ranking:
+      38% (avg pts 56): DG
+      26% (avg pts 55): jonts26
+      23% (avg pts 54): Tha Trillest Young Nick
+       6% (avg pts 49): Graystripe77
+       5% (avg pts 48): Kirian
+       1% (avg pts 43): andwilk
+       1% (avg pts 43): fit1one
+       0% (avg pts 40): elahrairah13
+[/font]
+
+[b]Missing Games[/b]
+Some games from Week 1 and Week 2 are still missing. (Week 3 has tons of missing games since it's still in progress.)
+
+Week 1 missing games:
+[code]
+WanderingWinder vs. Voltaire
+[/code]
+
+Week 2 missing games:
+[code]
+AHoppy vs. Mean Mr. Mustard
+Nicki Menagerie vs. ^_^_^_^
+Dubdubdubdub vs. luliin
+Greystripe77 vs. DG
+[/code]
+
+[b]Data[/b]
+Since the tournament result data is not in a very handy format, I mostly created my own by going through the posts. (So there may be errors.) In particular, I made sure to use exact isotropic usernames, because otherwise the simulator gets confused. I'm putting the data here in case anyone else wants to use it.
+
+Week 1:
+[code]
+Week One Match-ups:
+
+Pacific Group:
+
+Tmoiy vs. ednever 2-4-1 
+shark_bait vs. antony 2-5-0
+dghunter79 vs. Insomniac-X 5-0-2
+O vs. Titandrake 6-1-0
+
+Mountain Group
+
+[MAD] Mergus vs. yuma 4-2-1
+Axxle vs. tlloyd 4-3-0
+Jorbles vs. perdhapley 5-2-0
+Coheed vs. ignorantmen 2-4-1
+
+Central Group:
+
+BJ Penn vs. NinjaBus 2-5-0
+ebEliminator vs. mikemike 2-3-2
+CarpeDeezNuts vs. A_S00 2-5-0
+michaeljb vs. mnavratil 5-2-0
+
+Eastern Group:
+
+Mean Mr Mustard vs. ^_^_^_^ 6-1-0
+rspeer vs. AHoppy 6-1-0
+Brando Commando vs. Nicki Menagerie 4-3-0
+RisingJaguar vs. greatexpectations 5-2-0
+
+Eurasia Group:
+
+Geronimoo vs. lespeutere 3-4-0
+MrEevee vs. Rabid 3-4-0
+luliin vs. Nucleus 3-4-0
+Dubdubdubdub vs. Mangsky 4-3-0
+
+Central Europe Group:
+
+Fabian vs. JanErik 4-3-0
+AngBoy vs. ArjanB 4-2-1
+Tonks77 vs. ugasoft 3-3-1
+Lekkit vs. StickaRicka 5-2-0
+
+Eastern America Group
+
+WanderingWinder vs. Voltaire
+zxcvbn2 vs. angrybirds 2-4-1
+blueblimp vs. Mic Qsenoch 3-4-0
+Robz888 vs. Masticore 4-3-0
+
+Atlantic Group:
+
+Tha Trillest Young Nick vs. Graystripe77 4-3-0
+elahrairah13 vs. Kirian 3-4-0
+andwilk vs. DG 3-4-0
+fit1one vs. jonts26 6-1-0
+[/code]
+
+Week 2:
+[code]
+Week Two Match-ups:
+
+Earthquake Group
+
+antony vs. ednever 5-2-0
+Insomniac-X vs. Tmoiy 3-3-1
+Titandrake vs. shark_bait 2-5-0
+O vs. dghunter79 4-3-0
+
+Avalanche Group
+
+tlloyd vs. [MAD] Mergus 3-4-0
+perdhapley vs. yuma 3-4-0
+ignorantmen vs. Axxle 3-4-0
+Coheed vs. Jorbles 4-3-0
+
+Tornado Group
+
+mikemike vs. BJ Penn 3-4-0
+A_S00 vs. NinjaBus 2-5-0
+mnavratil vs. ebEliminator 2-5-0
+michaeljb vs. CarpeDeezNuts 4-3-0
+
+Jersey Shore Group
+
+AHoppy vs. Mean Mr. Mustard
+Nicki Menagerie vs. ^_^_^_^
+greatexpectations vs. rspeer 4-3-0
+RisingJaguar vs. Brando Commando 5-2-0
+
+Eurasia Group:
+
+Geronimoo vs. Rabid 3-4-0
+lespeutere vs. Nucleus 5-2-0
+MrEevee vs. Mangsky 5-2-0
+Dubdubdubdub vs. luliin
+
+Central Europe Group:
+
+Fabian vs. ArjanB 6-1-0
+JanErik vs. ugasoft 4-3-0
+AngBoy vs. StickaRicka 1-6-0
+Lekkit vs. Tonks77 4-3-0
+
+Eastern America Group
+
+WanderingWinder vs. angrybirds 5-2-0
+Voltaire vs. Mic Qsenoch 1-6-0
+zxcvbn2 vs. Masticore 2-5-0
+Robz888 vs. blueblimp 4-3-0
+
+Atlantic Group:
+
+Tha Trillest Young Nick vs. Kirian 4-3-0
+Greystripe77 vs. DG
+elahrairah13 vs. jonts26 2-5-0
+fit1one vs. andwilk 4-3-0
+[/code]
+
+Week 3:
+[code]
+Week Three Match-ups:
+
+Pacific Coast Group
+
+ednever vs. Insomniac-X
+antony vs. Titandrake 5-1-1
+Tmoiy vs. O
+shark_bait vs. DGHunter79
+
+What's a Coast? Group
+
+[MAD] Mergus vs. perdhapley 4-3-0
+tlloyd vs. Ignorantmen
+Yuma vs. coheed
+Axxle vs. Jorbles
+
+Gulf Coast Group
+
+BJ Penn vs. A_S00
+mikemike vs. mnavratil
+ninjabus vs. michaeljb
+ebEliminator vs. CarpeDeezNuts
+
+Atlantic Coast Group
+
+Mean Mr Mustard vs. Nicki Menagerie
+AHoppy vs. greatexpectations
+^_^_^_^ vs. RisingJaguar
+rspeer vs. Brando Commando
+
+Eurasia Group:
+
+Geronimoo vs. Nucleus
+Rabid vs. Mangsky
+lespeutere vs. Dubdubdubdub
+MrEevee vs. luliin
+
+Central Europe Group:
+
+Fabian vs. ugasoft 2-5-0
+ArjanB vs. StickaRicka
+JanErik vs. Lekkit
+angboy vs. Tonks77
+
+Eastern America Group
+
+Wandering Winder vs. Mic Qsenoch
+angrybirds vs. Masticore
+Voltaire vs. Robz888
+zxcvbn2 vs. blueblimp 3-4-0
+
+Atlantic Group:
+
+Young Nick vs. DG
+Kirian vs. Jonts26
+Graystripe77 vs. fit1one 4-3-0
+elahrairah13 vs. andwilk
+[/code]

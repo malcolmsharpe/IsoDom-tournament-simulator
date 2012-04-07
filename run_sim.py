@@ -3,15 +3,17 @@ import math
 import os
 import os.path
 from paths import boardtxt
+import re
 import scipy
 from scipy.stats import norm
 import sys
 
 def main():
-  if len(sys.argv) != 2:
-    print 'Usage: python run_sim.py trials'
+  if len(sys.argv) < 2:
+    print 'Usage: python run_sim.py trials [weekN.txt ...]'
     sys.exit(1)
   trials = int(sys.argv[1])
+  weeks = sys.argv[2:]
 
   std_norm = norm(0,1)
 
@@ -38,7 +40,7 @@ def main():
     else:
       line = line.strip()
       if line:
-        handle = line.split(' - ')[0].strip()
+        handle = line.split(' -')[0].strip()
         current_group[handle] = None
 
         if len(current_group) == 8:
@@ -83,6 +85,7 @@ def main():
       # This accounts for the dark horse effect.
       self.skill = self.skill_distr.rvs()
       self.points = 0
+      self.nplayed = 0
 
       # The distribution of performance.
       self._perf_rvs = []
@@ -97,6 +100,9 @@ def main():
     def incr_points(self, diff):
       self.points += diff
       self.alltime_points += diff
+
+    def incr_nplayed(self, diff):
+      self.nplayed += diff
 
     def __str__(self):
       return '%s (mu = %.1lf, sigma = %.1lf, s = %.1lf)' % (
@@ -152,6 +158,48 @@ def main():
     for g in b:
       players.extend(g.values())
 
+  name_to_player = {}
+  for p in players:
+    name_to_player[p.name] = p
+
+  print
+
+  # Read weeks.
+  preplayed = {}
+  for week in weeks:
+    for line in file(week):
+      if 'vs.' not in line: continue
+      m = re.match(r'(.*) vs\. (.*) ([0-9]+)-([0-9]+)-([0-9]+)', line)
+
+      if m is None:
+        print 'WARNING: "%s" parse failed on line "%s"' % (week, line.strip())
+        continue
+
+      p1name, p2name = m.group(1), m.group(2)
+      w, l, t = map(int, [m.group(3), m.group(4), m.group(5)])
+
+      ok = True
+      for name in [p1name, p2name]:
+        if name not in name_to_player:
+          print 'WARNING: "%s" had unknown player "%s"' % (week, name)
+          ok = False
+      if not ok:
+        continue
+
+      if not p1name < p2name:
+        tmp = p1name
+        p1name = p2name
+        p2name = tmp
+
+        tmp = w
+        w = l
+        l = tmp
+
+      preplayed[p1name, p2name] = (w, l, t)
+
+    print
+      
+
   # Run simulation.
   def run_simulation(verbose=False):
     def play_match(p1, p2):
@@ -183,16 +231,30 @@ def main():
         # Tie.
         return 1,1
 
+    SERIES_LENGTH = 7
     def play_series(p1, p2):
       if verbose:
         print '*** Players "%s" and "%s" playing a 7-game series.' % (
           p1.name, p2.name)
 
-      SERIES_LENGTH = 7
       for i in range(SERIES_LENGTH):
         pts1, pts2 = play_match(p1, p2)
         p1.incr_points(pts1)
+        p1.incr_nplayed(1)
         p2.incr_points(pts2)
+        p2.incr_nplayed(1)
+
+    def record_series(p1, p2, w, l, t):
+      if verbose:
+        print '*** Players "%s" and "%s" recorded a 7-game series.' % (
+          p1.name, p2.name)
+
+      assert w+l+t == SERIES_LENGTH
+
+      p1.incr_points(2*w+t)
+      p1.incr_nplayed(SERIES_LENGTH)
+      p2.incr_points(2*l+t)
+      p2.incr_nplayed(SERIES_LENGTH)
 
     def play_tiebreaker(p1, p2):
       if verbose:
@@ -222,13 +284,35 @@ def main():
     if verbose:
       print
 
+    # Record pre-played games.
+    for (p1name, p2name), (w,l,t) in preplayed.items():
+      assert p1name < p2name
+      record_series(name_to_player[p1name], name_to_player[p2name], w, l, t)
+
+    if verbose:
+      print '*** Pre-played standings:'
+      print '      PPG PTS GMS NAME'
+      print 'Brackets:'
+      for b in brackets:
+        print '  Groups:'
+        for g in b:
+          print '    Ranking:'
+          ranking = sorted(g.values(), key=lambda p: -p.points/float(p.nplayed))
+          for p in ranking:
+            pts = p.points
+            games = p.nplayed
+            pts_per_game = pts / float(games)
+            print '      %3.1lf %3d %3d %s' % (pts_per_game, pts, games, p.name)
+          print
+      print
+
     # Play standard games.
     for b in brackets:
       for g in b:
         for p1 in g.values():
           for p2 in g.values():
             # Want every unordered pair just once.
-            if id(p1) < id(p2):
+            if p1.name < p2.name and (p1.name, p2.name) not in preplayed:
               play_series(p1, p2)
 
     # Determine winners (possibly involving tie-breaking series).
