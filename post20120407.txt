@@ -1,5 +1,12 @@
 Update!
 
+[b]Notes[/b]
+
+[list]
+[li]This simulation was run with the most recent leaderboard, since that is the most accurate available preestimation of player skill. (The one exception is ^_^_^_^, who isn't on the most recent leaderboard, so his skill comes from an old leaderboard.) This means that change in win chance comes from some combination of tournament results and change in rating.[/li]
+[li]3-way ties are still handled incorrectly, but it happens infrequently enough that it shouldn't matter at this level of accuracy.[/li]
+[/list]
+
 [b]Current Standings[/b]
 Players are ranked by points-per-game. PPG means points-per-game, PTS means points, and GMS means games.
 
@@ -79,13 +86,13 @@ Brackets:
       0.3   2   7 Voltaire
 
     Ranking:
-      1.2  26  21 fit1one
+      1.6  22  14 jonts26
       1.1   8   7 DG
       1.1  16  14 Tha Trillest Young Nick
       1.0  14  14 Kirian
       1.0  14  14 Graystripe77
-      0.9  12  14 jonts26
       0.9  12  14 andwilk
+      0.8  16  21 fit1one
       0.7  10  14 elahrairah13
 [/font]
 
@@ -96,36 +103,36 @@ Brackets:
     Ranking:
       41% (avg pts 61): O
       23% (avg pts 58): shark_bait
-      22% (avg pts 59): antony
-      12% (avg pts 55): dghunter79
+      22% (avg pts 58): antony
+      13% (avg pts 56): dghunter79
        1% (avg pts 43): Tmoiy
        0% (avg pts 42): ednever
-       0% (avg pts 30): Insomniac-X
        0% (avg pts 40): Titandrake
+       0% (avg pts 30): Insomniac-X
 
     Ranking:
-      29% (avg pts 54): [MAD] Mergus
+      28% (avg pts 54): [MAD] Mergus
       23% (avg pts 53): tlloyd
-      19% (avg pts 51): Jorbles
+      19% (avg pts 52): Jorbles
       19% (avg pts 52): Axxle
-       3% (avg pts 42): ignorantmen
        3% (avg pts 45): Coheed
+       3% (avg pts 42): ignorantmen
        2% (avg pts 46): perdhapley
        2% (avg pts 44): yuma
 
     Ranking:
-      71% (avg pts 62): NinjaBus
+      72% (avg pts 63): NinjaBus
       17% (avg pts 54): michaeljb
-       5% (avg pts 49): mikemike
+       4% (avg pts 49): mikemike
        4% (avg pts 50): A_S00
        2% (avg pts 48): BJ Penn
-       0% (avg pts 41): ebEliminator
        0% (avg pts 42): CarpeDeezNuts
-       0% (avg pts 41): mnavratil
+       0% (avg pts 41): ebEliminator
+       0% (avg pts 40): mnavratil
 
     Ranking:
       77% (avg pts 70): RisingJaguar
-      21% (avg pts 63): Mean Mr Mustard
+      20% (avg pts 63): Mean Mr Mustard
        1% (avg pts 54): greatexpectations
        1% (avg pts 51): rspeer
        0% (avg pts 48): Brando Commando
@@ -136,43 +143,43 @@ Brackets:
   Groups:
     Ranking:
       51% (avg pts 63): Rabid
-      23% (avg pts 59): Geronimoo
-      17% (avg pts 58): lespeutere
-       8% (avg pts 54): MrEevee
+      22% (avg pts 59): Geronimoo
+      18% (avg pts 57): lespeutere
+       7% (avg pts 54): MrEevee
        1% (avg pts 45): Dubdubdubdub
        0% (avg pts 41): luliin
        0% (avg pts 35): Nucleus
        0% (avg pts 34): Mangsky
 
     Ranking:
-      43% (avg pts 61): Fabian
+      44% (avg pts 61): Fabian
       26% (avg pts 58): Lekkit
       13% (avg pts 56): JanErik
-      10% (avg pts 54): StickaRicka
+       9% (avg pts 54): StickaRicka
        6% (avg pts 54): ugasoft
-       2% (avg pts 48): Tonks77
+       1% (avg pts 48): Tonks77
        0% (avg pts 28): AngBoy
        0% (avg pts 30): ArjanB
 
     Ranking:
       54% (avg pts 62): WanderingWinder
-      24% (avg pts 59): Robz888
-      17% (avg pts 57): Mic Qsenoch
+      24% (avg pts 58): Robz888
+      18% (avg pts 57): Mic Qsenoch
        3% (avg pts 50): Masticore
        2% (avg pts 51): blueblimp
-       0% (avg pts 37): zxcvbn2
-       0% (avg pts 37): angrybirds
        0% (avg pts 34): Voltaire
+       0% (avg pts 37): angrybirds
+       0% (avg pts 38): zxcvbn2
 
     Ranking:
-      38% (avg pts 56): DG
-      26% (avg pts 55): jonts26
-      23% (avg pts 54): Tha Trillest Young Nick
-       6% (avg pts 49): Graystripe77
-       5% (avg pts 48): Kirian
-       1% (avg pts 43): andwilk
-       1% (avg pts 43): fit1one
+      69% (avg pts 65): jonts26
+      18% (avg pts 56): DG
+       9% (avg pts 54): Tha Trillest Young Nick
+       2% (avg pts 48): Kirian
+       2% (avg pts 49): Graystripe77
+       0% (avg pts 43): andwilk
        0% (avg pts 40): elahrairah13
+       0% (avg pts 33): fit1one
 [/font]
 
 [b]Missing Games[/b]
